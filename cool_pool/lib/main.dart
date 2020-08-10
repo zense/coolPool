@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-
+void main()
+{
+  runApp(new Center(child: new Text("Hello There",textDirection: TextDirection.ltr)));
+}
+/*
 void main() {
   runApp(MyApp());
 }
@@ -115,3 +119,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
